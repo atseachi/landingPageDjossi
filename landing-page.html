@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style-landing-page.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+	<title>Landing page</title>
+</head>
+<body>
+	<header id="haut-de-page">
+		<nav>
+			<a href="" class="logo-link"> <img src="images/logo.png" alt="logo" class="logo-1"> </a> 
+			<div>
+				<a href="index.html">acceuil</a>
+				<a href="a-propos">A propos</a>
+			</div>
+			<form action="get" class="search">
+				<input type="search" id="search" placeholder="rechercher...">
+				<input type="submit" value="entrer">
+			</form>
+
+			<!-- <div>
+				<ul>
+					<li><a href=""><img src="images/logo.png" alt="logo" class="logo-1"></a></li>
+					<li><a href="">Acceuil</a></li>
+					<li><a href="">A propos</a></li>
+				  </ul>
+			</div>
+			<div>
+					<input type="search"  placeholder="rechercher...">
+			</div> -->
+		</nav>
+	</header>
+
+
+
+	<main>
+
+		<section class="presentation-sys">
+			<h1>DJOSSI</h1>
+			<p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci ad nemo unde excepturi nobis odit incidunt, porro accusantium quidem eius, 
+				dolor fugit quisquam officiis sunt perferendis modi voluptas ducimus tempora?	
+			</p>
+		</section>
+
+		<section class="profil-demandeur-emploi">
+			<h2>
+				Demandeur d'emploi
+			</h2>
+
+			<form action="get" class="search-1">
+				<input type="search" id="search" placeholder="Plombier...">
+				<input type="submit" value="entrer">
+			</form>
+
+			<div class="membre-container">
+				<div class="membre">
+					<img src="images/membre1.jpg" alt="image-membre1">
+					<p>
+						Prénoms_membre1 <br> NOM_MEMBRE1<br>
+						metier
+					</p>
+				</div>
+	
+				<div class="membre">
+					<img src="images/membre2.jpg" alt="image-membre2">
+					<p>
+						Prénoms_membre2 <br> NOM_MEMBRE2<br>
+						metier
+					</p>
+				</div>
+	
+				<div class="membre">
+					<img src="images/membre3.jpg" alt="image-membre3">
+					<p>
+						Prénoms_membre3 <br> NOM_MEMBRE3<br>
+						metier
+					</p>
+				</div>
+				<div class="membre">
+					<img src="images/membre4.jpg" alt="image-membre4">
+					<p>
+						Prénoms_membre4 <br> NOM_MEMBRE4<br>
+						metier
+					</p>
+				</div>
+
+
+				
+				
+			</div>
+		</section>
+
+		<section class="section-preinscription">
+
+			<div class="preinscription">
+				<h2>devevenir membre</h2>
+			
+
+				<form action="" method="post" class="preinscription-form">
+
+						<div>
+							<label for="nom">Nom</label> 
+							<input type="text" id="nom">
+						</div>
+
+						<div>
+							<label for="prenom">Prénom</label> 
+							<input type="text" id="prenom">
+
+						</div>
+						<div>
+							<label for="formation">Formation</label> 
+							<input type="text" id="formation">
+						</div>
+
+						<div>
+							<label for="niveau">Niveau</label> 
+							<select name="niveau" id="niveau">
+								<option value="cepe">CEPE</option>
+								<option value="bepc">BEPC</option>
+								<option value="bac">BAC</option>
+								<option value="bts">BTS</option>
+								<option value="licence">LICENCE</option>
+								<option value="deug">DEUG</option>
+								<option value="master-1">Master 1</option>
+								<option value="master-2">Master 2</option>
+								<option value="doctorat">Doctorat</option>
+							</select>
+						</div>
+
+						<div>
+							<label for="cv">Choisir CV</label> 
+							<input type="file" id="cv">
+						</div>
+
+						<div>
+							<label for="telephone">Téléphone</label> 
+							<input type="tel" id="telephone">
+
+						</div>
+						<div>
+							<label for="email">e-mail</label> 
+							<input type="email" id="email">
+						</div>
+
+						<div>
+							<label for="passsword">Mot de passe</label> 
+							<input type="password" size="8" maxlength="8" id="password"/>
+						</div>
+
+						<div>
+							<label for="confirm-password">Confirmer le mot de passe</label> 
+							<input type="password" size="8" maxlength="8" id="confirm-password"/>
+						</div>
+						<div>
+							<input type="submit" value="submit">
+						</div>
+				</form>
+			</div>
+			
+		</section>
+	</main>
+
+
+	<footer>
+		<div>
+			<a href="#haut-de-page">
+				<img src="images/logo.png" alt="logo" class="logo-1">
+			</a>
+		</div>
+		<div class="reseaux-sociaux">
+			<a href="https://twitter.com" target="_blank">
+				<img src="images/twitter.png" alt="twitter" class="logo">
+			</a>
+			<a href="https://fr.linkedin.com" target="_blank">
+				<img src="images/linkedin.png" alt="linkedin" class="logo">
+			</a>
+			
+			<a href="https://www.instagram.com" target="_blank">
+				<img src="images/instagram.png" alt="instagram" class="logo">
+			</a>
+
+			<a href="https://fr-fr.facebook.com" target="_blank">
+				<img src="images/facebook.png" alt="instagram" class="logo">
+			</a>
+		</div>
+	</footer>
+
+
+</body>
+</html>
